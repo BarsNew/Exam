@@ -1,0 +1,322 @@
+@media (max-width: 1470px) {
+
+    .promo .wrapper {
+        align-items: center;
+        flex-direction: column-reverse;
+    }
+
+    .promo_text {
+        width: 100%;
+        text-align: center;
+        margin: 0 0 20px 0;
+    }
+
+    .promo_text p:first-child {
+        padding-top: 0;
+    }
+
+    .promo_img img {
+        margin: 20px 0 0 0;
+    }
+
+    .switch {
+        position: static;
+    }
+
+}
+
+@media (max-width: 1410px) {
+
+    .offers_item p:nth-child(3) {
+        width: 80%;
+    }
+}
+
+@media (max-width: 1270px) {
+
+    .offers .wrapper {
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+    }
+
+    .offers_item {
+        flex: auto;
+        text-align: center;
+    }
+
+    .offers_img {
+        margin: 0 auto;
+    }
+
+    .offers_item p:nth-child(3) {
+        margin: 0 auto;
+        width: 60%;
+    }
+
+    .text_company .wrapper {
+        flex-direction: column;
+        align-items: center;
+        padding-top: 0;
+    }
+
+    .text_company1 {
+        margin: 30px;
+    }
+
+    .text_company1 p {
+        text-align: center;
+    }
+
+    .text_company1 p:first-child {
+        width: auto;
+        margin-top: 0;
+    }
+
+    .text_company1 p:nth-child(2) {
+        width: auto;
+    }
+
+    .text_company1 ul li {
+        text-align: center;    
+    }
+
+    .text_company2 img {
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .text_company2 .describe {
+        text-align: center;
+        margin-left: 0px;
+    }
+
+    .achievements_item p {
+        text-align: center;
+    }
+
+    .achievements_item p:nth-child(2) {
+        margin: 0 5px;
+    }
+
+    .clients .wrapper {
+        flex-wrap: wrap;
+    }
+    
+    .clients .wrapper div {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+}
+
+@media (max-width: 1130px) {
+
+    .text_adress {
+        position: static;
+        padding: 0;
+        text-align: center;
+    }
+
+    .footer .wrapper {
+
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+
+    .footer_text {
+        text-align: center;
+        margin-bottom: 50px;
+    }
+
+    .social {
+        width: auto;
+    }
+
+}
+
+@media (max-width: 1024px) {
+
+
+
+
+
+
+    .nav ul {
+        display: none;
+    }
+
+    .nav_toggle {
+        display: inline-block;
+    }
+
+    #nav_toggle:checked ~ ul {
+        display: flex;
+        flex-direction: column;
+    }
+
+    #nav_toggle:checked ~ #check,
+    #nav_toggle:checked ~ .check_closing {
+        position: fixed;
+        top: 25px;
+        left: 170px;
+        z-index: 5;
+        display: inline-block;
+    }
+
+    #nav_toggle:checked ~ #check {
+        top: 15px;
+        left: 168px;
+    }
+
+
+
+    #nav_toggle:checked ~ #check {
+        z-index: 10;
+    }
+
+    .nav ul {
+        position: fixed;
+        top: 0;
+        left: 0;
+        background-color: #fff;
+
+        padding: 10px;
+
+        z-index: 2;
+
+        height: 100%;
+        min-width: 200px;
+
+    }
+    .nav a {
+        display: block;
+        padding: 10px 0px;
+    }
+
+    #check:checked ~ ul,
+    #check:checked ~ .check_closing {
+        display: none;
+    }
+
+
+
+
+}
+
+@media (max-width: 600px) {
+
+    .promo_text p:first-child {
+        font-size: 50px;
+    }
+
+    .header .wrapper {
+        flex-direction: column;
+    }
+
+    .nav_toggle {
+        margin: 20px 0;
+    }
+
+    .footer_text p:first-child {
+        font-size: 35px;
+    }
+}
+
+@media (max-width: 490px) {
+
+    .text_company1 p:first-child {
+        font-size: 30px;
+    }
+}
+
+@media (max-width: 475px) {
+
+    .promo_text p:first-child {
+        font-size: 40px;
+    }
+
+    .switch_item {
+        padding: 8px;
+    }
+
+    .text_company2 img {
+        width: 100%;
+    }
+
+    .achievements {
+        flex-direction: column;
+    }
+
+    .offers_img {
+        width: 200px;
+        background-position: center;
+    }
+
+
+}
+
+@media (max-width: 440px) {
+
+    .promo_text p:first-child {
+        font-size: 30px;
+        padding-bottom: 15px;
+    }
+    
+    .text_company1 p:first-child {
+        font-size: 25px;
+    }   
+
+    .social {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .social a {
+        margin-bottom: 5px;
+    }
+
+}
+
+
+@media (max-width: 270px) {
+
+    .button_text {
+        display: none;
+    }
+
+    .button {
+        padding: 10px 30px;
+    }
+
+}
+
+@media (max-width: 240px) {
+
+    .clients .wrapper img {
+        width: 100%;
+    }
+
+    .clients .wrapper div {
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+    .footer_text p:first-child {
+        font-size: 30px;
+    }
+
+}
+
+@media (max-width: 210px) {
+
+    .promo_text p:first-child {
+        font-size: 25px;
+    }
+
+    .offers_img {
+        width: 150px;
+    }
+
+}
+
+

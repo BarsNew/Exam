@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Форма отправки</title>
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="/css/style_order.css">
+</head>
+<body>
+<div class="application_form">
+
+    <div class="wrapper">
+
+    <h1>Отправка запроса на услугу</h1>
+    
+    <form action="#" name="form_request" method="POST">
+
+        <fieldset>
+
+            <legend>Общая информация</legend>
+
+        <p>Имя*:</p>
+        <input required type="text" name="name" minlength="2" maxlength="20" placeholder="Николай" />
+
+        <p>Фамилия:</p>
+
+        <input type="text" name="surname" minlength="2" maxlength="20" placeholder="Смирнов" />
+
+        
+        <p>Телефон*:</p>
+
+        <input required type="tel" name="phone" placeholder="+375 29 ..." />
+
+        <p>Электронная почта:</p>
+
+        <input type="email" name="mail" placeholder="nerds@mail.com" />
+
+        </fieldset>
+
+        <fieldset>
+
+            <legend>Информация по проекту</legend>
+
+        <p>Время выполнения заказа:</p>
+
+        <input type="radio" name="time" /> 1 неделя <br />
+        <input type="radio" name="time" /> 2 недели <br />
+        <input type="radio" name="time" /> 3 недели <br />
+        <input type="radio" name="time" />  месяц <br />
+        <input type="radio" name="time" />  более месяца
+        
+        <p>Дата начала создания проекта:</p>
+
+        <input type="date" name="date" />
+
+        </fieldset>
+
+        <p>Ваш текст:</p>
+
+        <div>
+        <textarea name="notes" cols="30" rows="10"></textarea>
+        </div>
+
+        <button type="reset" class="reset">Стереть данные</button>
+
+        <button type="submit" class="send">Отправить заявку</button>    
+
+    </form>
+
+    </div>
+
+</div>
+</body>
+</html>
